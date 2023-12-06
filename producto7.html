@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>producto1</title>
+<style>
+    @import url("fuentes.css");
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fondo negro en toda la página */
+            color: #fff; /* Color de texto blanco */
+			padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #000;
+        }
+
+            header img {
+                width: 100%;
+                height: auto;
+            }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #234060;
+            margin-bottom: 0;
+        }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 14px 16px;
+                text-align: center;
+                font-size: 1.5em;
+            }
+
+        section {
+            padding: 20px;
+        }
+
+        .imagen-fondo {
+            width: 100%;
+            
+            position: relative;
+            overflow: hidden;
+ 
+        }
+
+            .imagen-fondo img {
+                width: 100vw;
+                height: 100%;
+                object-fit: contain;
+            }
+
+        .fondo-negro {
+            background-color: #000;
+            padding: 10px;
+            text-align: center;
+            margin-top: -10px;
+        }
+
+            .fondo-negro a {
+                color: #fff;
+            }
+
+        .texto-sobre-imagen {
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            transform: translateY(-50%);
+			margin-top: 100px;
+			font-size: 20px;
+        }
+		
+		.dos-columnas {
+            display: flex;
+            justify-content: center;
+			align-items: center;
+        }
+
+        .columna {
+            width: 48%;
+			margin: 0 4%; /* Añade márgenes izquierdo y derecho */
+        }
+		
+		h1 {
+            font-size: 25pt;
+            margin-bottom: 20px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+			background: #fff;
+			color: #000;
+;
+        }
+
+        .imagen-producto {
+            width: 400px; /* Ajusta el tamaño de la imagen según sea necesario */
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+			width: 50%;
+        }
+
+        .precio {
+            font-size: 40pt;
+            margin-bottom: 40px;
+			margin-top: 30px;
+			text-align: left;
+			margin-left: 40px;
+        }
+
+        .descripcion {
+            text-align: left;
+            font-size: 18pt;
+			margin-right: 20px;
+			margin-left: 40px;
+			max-width: 700px;
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <img src="imagenes/banner.jpg" alt="Banner de Mi Página Web">
+    </header>
+    
+   <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+  	<section>
+        <h1>5-Inch 2 MP 32X DarkFighter Network Speed Dome – DS-2DF5232X-AE3(T5)</h1>
+
+        <div class="contenedor">
+        
+            <div class="imagen-producto">
+                <img src="imagenes/producto7.jpg" alt="Producto">
+            </div>
+
+            <div class="detalle">
+                <div class="precio">$370.000</div>
+                <div class="descripcion">
+                    <p>
+
+
+
+La Cámara Speed Dome de Red DarkFighter DS-2DF5232X-AE3(T5) con resolución de 2 MP y zoom óptico de 32X es una solución avanzada para aplicaciones de vigilancia. Aquí tienes una descripción y características clave:</p>
+                    <p>Resolución de 2 Megapíxeles: Ofrece imágenes de alta resolución para una vigilancia detallada, capturando con claridad incluso los detalles más pequeños.
+
+Tecnología DarkFighter: Optimizada para un rendimiento excepcional en condiciones de baja iluminación, proporcionando imágenes más claras y nítidas en entornos nocturnos.
+
+Zoom Óptico de 32X: Permite acercarse a objetos distantes sin sacrificar la calidad de la imagen, proporcionando una vigilancia detallada incluso a largas distancias.
+
+Speed Dome: Ofrece una cobertura de vigilancia amplia y la capacidad de realizar movimientos rápidos y precisos, adaptándose a situaciones dinámicas.
+
+Acceso Remoto: Facilita la visualización remota a través de dispositivos móviles o computadoras, brindando flexibilidad para el monitoreo en tiempo real desde cualquier ubicación.
+
+Funciones Avanzadas de Seguridad: Incluye características como detección de movimiento, seguimiento automático y configuraciones de patrón de escaneo para mejorar la eficiencia y la respuesta a eventos de seguridad.</p>
+                    <!-- Agrega más contenido según sea necesario -->
+                </div>
+            </div>
+        </div>
+    </section>
+	 
+
+
+    <section class="dos-columnas">
+        <div class="columna">
+            <h1>NOSOTROS</h1>
+            <p>Somos una empresa dedicada a proporcionar tranquilidad y seguridad a través de soluciones innovadoras: somos líderes en el 		              diseño, instalación y mantenimiento de sistemas de vigilancia para el hogar. En un mundo en constante cambio, entendemos la      importancia de 	proteger lo que más valoras: tu hogar y tu familia.</p>
+        </div>
+        <div class="columna">
+            <h2>Contacto</h2>
+            <p>Teléfono: 3164524415<br>Correo: seguridadgdh@gmail.com</p>
+        </div>
+         <div class="columna">
+			<img src="imagenes/logo.png" alt="Producto 2" style="width: 250px; height: auto;">
+        </div>
+    </section>
+
+    <footer>
+        <p>Contacto: Teléfono - Dirección - Email</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>producto1</title>
+<style>
+    @import url("fuentes.css");
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fondo negro en toda la página */
+            color: #fff; /* Color de texto blanco */
+			padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #000;
+        }
+
+            header img {
+                width: 100%;
+                height: auto;
+            }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #234060;
+            margin-bottom: 0;
+        }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 14px 16px;
+                text-align: center;
+                font-size: 1.5em;
+            }
+
+        section {
+            padding: 20px;
+        }
+
+        .imagen-fondo {
+            width: 100%;
+            
+            position: relative;
+            overflow: hidden;
+ 
+        }
+
+            .imagen-fondo img {
+                width: 100vw;
+                height: 100%;
+                object-fit: contain;
+            }
+
+        .fondo-negro {
+            background-color: #000;
+            padding: 10px;
+            text-align: center;
+            margin-top: -10px;
+        }
+
+            .fondo-negro a {
+                color: #fff;
+            }
+
+        .texto-sobre-imagen {
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            transform: translateY(-50%);
+			margin-top: 100px;
+			font-size: 20px;
+        }
+		
+		.dos-columnas {
+            display: flex;
+            justify-content: center;
+			align-items: center;
+        }
+
+        .columna {
+            width: 48%;
+			margin: 0 4%; /* Añade márgenes izquierdo y derecho */
+        }
+		
+		h1 {
+            font-size: 25pt;
+            margin-bottom: 20px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+			background: #fff;
+			color: #000;
+;
+        }
+
+        .imagen-producto {
+            width: 400px; /* Ajusta el tamaño de la imagen según sea necesario */
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+			width: 50%;
+        }
+
+        .precio {
+            font-size: 40pt;
+            margin-bottom: 40px;
+			margin-top: 30px;
+			text-align: left;
+			margin-left: 40px;
+        }
+
+        .descripcion {
+            text-align: left;
+            font-size: 18pt;
+			margin-right: 20px;
+			margin-left: 40px;
+			max-width: 700px;
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <img src="imagenes/banner.jpg" alt="Banner de Mi Página Web">
+    </header>
+    
+   <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+  	<section>
+        <h1>Cámara De Red AcuSense Fisheye De 5 MP</h1>
+
+        <div class="contenedor">
+        
+            <div class="imagen-producto">
+                <img src="imagenes/producto3.jpg" alt="Producto">
+            </div>
+
+            <div class="detalle">
+                <div class="precio">$1'000.000</div>
+                <div class="descripcion">
+                    <p>
+
+La Cámara de Red AcuSense Fisheye de 5 MP es una opción avanzada para complementar tu sistema de seguridad. Aquí tienes una descripción y características clave:</p>
+                    <p>Resolución de 5 MP: Ofrece imágenes de alta resolución para una vigilancia detallada, permitiendo una calidad de video excepcional.
+
+Tecnología AcuSense: Incorpora tecnología inteligente de análisis de video para distinguir entre eventos humanos y no humanos, reduciendo las falsas alarmas y mejorando la precisión de detección.
+
+Lente Fisheye: Proporciona un campo de visión panorámico de 360 grados, eliminando los puntos ciegos y cubriendo áreas extensas con una sola cámara.
+
+Visión Nocturna Avanzada: Equipada con LEDs infrarrojos para una visión nocturna clara y nítida, incluso en entornos de baja iluminación.
+
+Acceso Remoto: Permite la visualización remota a través de dispositivos móviles o computadoras, brindando la flexibilidad de monitoreo en tiempo real desde cualquier ubicación.
+
+Funciones de Alarma y Notificación: Ofrece configuraciones avanzadas de alerta, notificación y grabación en respuesta a eventos específicos, mejorando la eficiencia del sistema de seguridad.</p>
+                    <!-- Agrega más contenido según sea necesario -->
+                </div>
+            </div>
+        </div>
+    </section>
+	 
+
+
+    <section class="dos-columnas">
+        <div class="columna">
+            <h1>NOSOTROS</h1>
+            <p>Somos una empresa dedicada a proporcionar tranquilidad y seguridad a través de soluciones innovadoras: somos líderes en el 		              diseño, instalación y mantenimiento de sistemas de vigilancia para el hogar. En un mundo en constante cambio, entendemos la      importancia de 	proteger lo que más valoras: tu hogar y tu familia.</p>
+        </div>
+        <div class="columna">
+            <h2>Contacto</h2>
+            <p>Teléfono: 3164524415<br>Correo: seguridadgdh@gmail.com</p>
+        </div>
+         <div class="columna">
+			<img src="imagenes/logo.png" alt="Producto 2" style="width: 250px; height: auto;">
+        </div>
+    </section>
+
+    <footer>
+        <p>Contacto: Teléfono - Dirección - Email</p>
+    </footer>
+
+</body>
+</html>

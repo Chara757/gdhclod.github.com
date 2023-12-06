@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>producto1</title>
+<style>
+    @import url("fuentes.css");
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fondo negro en toda la página */
+            color: #fff; /* Color de texto blanco */
+			padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #000;
+        }
+
+            header img {
+                width: 100%;
+                height: auto;
+            }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #234060;
+            margin-bottom: 0;
+        }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 14px 16px;
+                text-align: center;
+                font-size: 1.5em;
+            }
+
+        section {
+            padding: 20px;
+        }
+
+        .imagen-fondo {
+            width: 100%;
+            
+            position: relative;
+            overflow: hidden;
+ 
+        }
+
+            .imagen-fondo img {
+                width: 100vw;
+                height: 100%;
+                object-fit: contain;
+            }
+
+        .fondo-negro {
+            background-color: #000;
+            padding: 10px;
+            text-align: center;
+            margin-top: -10px;
+        }
+
+            .fondo-negro a {
+                color: #fff;
+            }
+
+        .texto-sobre-imagen {
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            transform: translateY(-50%);
+			margin-top: 100px;
+			font-size: 20px;
+        }
+		
+		.dos-columnas {
+            display: flex;
+            justify-content: center;
+			align-items: center;
+        }
+
+        .columna {
+            width: 48%;
+			margin: 0 4%; /* Añade márgenes izquierdo y derecho */
+        }
+		
+		h1 {
+            font-size: 25pt;
+            margin-bottom: 20px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+			background: #fff;
+			color: #000;
+;
+        }
+
+        .imagen-producto {
+            width: 400px; /* Ajusta el tamaño de la imagen según sea necesario */
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+			width: 50%;
+        }
+
+        .precio {
+            font-size: 40pt;
+            margin-bottom: 40px;
+			margin-top: 30px;
+			text-align: left;
+			margin-left: 40px;
+        }
+
+        .descripcion {
+            text-align: left;
+            font-size: 18pt;
+			margin-right: 20px;
+			margin-left: 40px;
+			max-width: 700px;
+        }
+    </style>
+</head>
+<body>
+	<header>
+        <img src="imagenes/banner.jpg" alt="Banner de Mi Página Web">
+    </header>
+    
+   <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+  	<section>
+        <h1>CÁMARA TIPO BALA EXIR VF BULLET MP IR DS</h1>
+
+        <div class="contenedor">
+        
+            <div class="imagen-producto">
+                <img src="imagenes/producto4.jpg" alt="Producto">
+            </div>
+
+            <div class="detalle">
+                <div class="precio">$150.000</div>
+                <div class="descripcion">
+                    <p>
+
+
+La Cámara tipo Bala EXIR VF Bullet MP IR DS es una opción robusta y versátil para fortalecer tu sistema de seguridad. Aquí tienes una descripción y características clave:</p>
+                    <p>Resolución de Megapíxeles: Captura imágenes de alta calidad con una resolución megapíxel para detalles más precisos y una mayor claridad.
+
+Tecnología EXIR: Equipada con iluminación EXIR, proporciona una visión nocturna más potente y uniforme en comparación con las cámaras convencionales, garantizando una vigilancia eficaz en condiciones de baja iluminación.
+
+Lente Varifocal (VF): Ofrece flexibilidad al permitir ajustar el zoom y el enfoque para adaptarse a diferentes distancias y necesidades de vigilancia.
+
+Construcción Tipo Bala: Diseño resistente y adecuado para entornos exteriores, ofreciendo protección contra las inclemencias del tiempo y actos vandálicos.
+
+Acceso Remoto: Permite la visualización remota a través de dispositivos móviles o computadoras, brindando flexibilidad para monitorear en tiempo real desde cualquier ubicación.
+
+Funciones de Detección de Movimiento: Ofrece configuraciones avanzadas de alerta y notificación en respuesta a eventos específicos, mejorando la eficiencia del sistema de seguridad.
+
+Amplio Rango Dinámico (WDR): Proporciona imágenes equilibradas en entornos con contrastes de luz extremos, como áreas iluminadas y sombras.</p>
+                    <!-- Agrega más contenido según sea necesario -->
+                </div>
+            </div>
+        </div>
+    </section>
+	 
+
+
+    <section class="dos-columnas">
+        <div class="columna">
+            <h1>NOSOTROS</h1>
+            <p>Somos una empresa dedicada a proporcionar tranquilidad y seguridad a través de soluciones innovadoras: somos líderes en el 		              diseño, instalación y mantenimiento de sistemas de vigilancia para el hogar. En un mundo en constante cambio, entendemos la      importancia de 	proteger lo que más valoras: tu hogar y tu familia.</p>
+        </div>
+        <div class="columna">
+            <h2>Contacto</h2>
+            <p>Teléfono: 3164524415<br>Correo: seguridadgdh@gmail.com</p>
+        </div>
+         <div class="columna">
+			<img src="imagenes/logo.png" alt="Producto 2" style="width: 250px; height: auto;">
+        </div>
+    </section>
+
+    <footer>
+        <p>Contacto: Teléfono - Dirección - Email</p>
+    </footer>
+
+</body>
+</html>

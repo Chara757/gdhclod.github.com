@@ -1,0 +1,13 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'titulos';
+  src: url('fonts/RobotoBlack.ttf') format('truetype');  
+}
+@font-face {
+  font-family: 'texto';
+  src: url('fonts/RobotoRegular.ttf') format('truetype');  
+}
+
+
+/* CSS Document */
+
